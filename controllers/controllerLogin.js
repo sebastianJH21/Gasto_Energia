@@ -13,3 +13,6 @@ export function login() {
         alert("Usario Incorrecto")
     }
 }
+export function singOut() {
+    window.location.href = '../index.html'
+}
